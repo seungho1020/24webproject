@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 이력서</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #4a90e2;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            color: #4a90e2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        ul li strong {
+            display: block;
+            font-size: 1.2em;
+            color: #333;
+        }
+        ul li ul {
+            margin-top: 5px;
+        }
+        ul li ul li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        ul li ul li::before {
+            content: "•";
+            color: #4a90e2;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills ul li {
+            background: #e1ecf4;
+            color: #333;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin: 5px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>백승호</h1>
+            <p>학생</p>
+            <p>이메일: baekseungho1020@gmail.com | 전화번호: 010-3265-8909</p>
+        </header>
+        <section>
+            <h2>학력</h2>
+            <ul>
+                <li>
+                    <strong>가림고등학교 졸업</strong> (~2023)
+                    <ul>
+                        <li>학과: 이과</li>
+                        <li>교양: 인공지능 기초</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>대학</h2>
+            <ul>
+                <li>
+                    <strong>청운대학교</strong> (2023~ )
+                    <ul>
+                        <li>전공: 컴퓨터 공학</li>
+                        <li>현재 재학중</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2>기술</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
